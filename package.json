@@ -1,0 +1,15 @@
+{
+  "name": "practice_problems",
+  "version": "1.0.0",
+  "description": "practice problems preparing for interviews & reviewing basic concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --coverage"
+  },
+  "author": "shannon",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "jest": "^22.2.2"
+  }
+}
