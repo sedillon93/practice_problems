@@ -8,7 +8,7 @@ const removeMiddleNode = (node) => {
   let nodeToDelete = node.next;
   node.next = node.next.next;
 
-  deleteNode(nodeToDelete);
+  node.deleteNode(nodeToDelete);
 };
 
 module.exports = removeMiddleNode;
