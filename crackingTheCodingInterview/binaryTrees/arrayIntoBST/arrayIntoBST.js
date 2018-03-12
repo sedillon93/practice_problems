@@ -3,7 +3,6 @@ const TreeNode = require('../binaryTreeConstructor');
 
 const arrayIntoBST = (sortedArray, leftIndex, rightIndex) => {
   let middle = Math.floor((leftIndex + rightIndex) / 2);
-  console.log(sortedArray[middle], `sortedArray at mid point`);
   let node = new TreeNode(sortedArray[middle]);
   if(leftIndex <= middle - 1){
     node.left = arrayIntoBST(sortedArray, leftIndex, middle - 1);

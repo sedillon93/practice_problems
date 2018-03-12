@@ -61,4 +61,4 @@ const _findNode = function(currentNode, valueToFind){
 };
 
 // module.exports = BinarySearchTree;
-module.exports = TreeNode;
+module.exports = BinarySearchTree;
